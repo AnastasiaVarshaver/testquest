@@ -1,0 +1,20 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "text_quest",
+  "scripts": {
+    "build": "tsc src/main.ts --outDir bin",
+    "test": "node bin/main.js"
+  },
+  "compilerOptions": {
+    "outDir": "bin"
+  },
+  "author": "Anastasia Varshaver",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  }
+}
